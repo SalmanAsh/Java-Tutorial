@@ -41,5 +41,12 @@ public class Main {
         System.out.print("Age: ");
         String scanned = sc.next();
         System.out.println("You are " + scanned + "!");
+
+        // convert data type
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Age: ");
+        String scann = scan.next();
+        int i = Integer.parseInt(scann);
+        System.out.println("You are " + i + "!");
     }
 }
