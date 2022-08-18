@@ -1,4 +1,5 @@
 import java.sql.Date;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,11 +11,35 @@ public class Main {
 
         // Reference
         String str = "Hello, how are you?";
-        System.out.println(str);
-        System.out.println(b);
-        System.out.println(age);
-
         int tim = age;
 
+        int x;
+        x = 6;
+
+        System.out.println(x);
+
+        // operations
+        int y = 7;
+        int z = 56;
+        int sum = x + y + z;
+        System.out.println(sum);
+
+        // taking powers
+        double d = Math.pow(x, y);
+        System.out.println(d);
+
+        // type casting
+        double u = x / (double) y;
+        System.out.println(u);
+
+        // remainder
+        int r = 56 % 5;
+        System.out.println(r);
+
+        // input
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Age: ");
+        String scanned = sc.next();
+        System.out.println("You are " + scanned + "!");
     }
 }
