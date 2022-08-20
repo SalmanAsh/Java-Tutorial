@@ -47,6 +47,6 @@ public class Main {
         System.out.print("Age: ");
         String scann = scan.next();
         int i = Integer.parseInt(scann);
-        System.out.println("You are " + i + "!");
+        System.out.println("You are " + i);
     }
 }
