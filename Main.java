@@ -66,5 +66,16 @@ public class Main {
         boolean compari = !(f > a || t > f);
         System.out.println(compari);
 
+        // IF / ELSE / ELSE IF
+        Scanner scan = new Scanner(System.in);
+        String s = scan.nextLine();
+
+        if (s.equals("Tim")) {
+            System.out.println("You typed tim");
+        } else if (s.equals("hello")) {
+            System.out.println("hello");
+        } else {
+            System.out.println("You typed something else");
+        }
     }
 }
