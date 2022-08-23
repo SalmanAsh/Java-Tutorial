@@ -37,16 +37,34 @@ public class Main {
         System.out.println(r);
 
         // input
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Age: ");
-        String scanned = sc.next();
-        System.out.println("You are " + scanned + "!");
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Age: ");
+        // String scanned = sc.next();
+        // System.out.println("You are " + scanned + "!");
 
         // convert data type
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Age: ");
-        String scann = scan.next();
-        int i = Integer.parseInt(scann);
-        System.out.println("You are " + i);
+        // Scanner scan = new Scanner(System.in);
+        // System.out.print("Age: ");
+        // String scann = scan.next();
+        // int i = Integer.parseInt(scann);
+        // System.out.println("You are " + i);
+
+        // comparison operator
+        int a = 6;
+        int f = 5;
+        int t = 2;
+        boolean compare = a != f;
+        System.out.println(compare);
+
+        // multiple comparisons
+        boolean comp = a > f && t < f;
+        System.out.println(comp);
+
+        boolean comparison = f > a || t > f;
+        System.out.println(comparison);
+
+        boolean compari = !(f > a || t > f);
+        System.out.println(compari);
+
     }
 }
