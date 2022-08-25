@@ -1,6 +1,8 @@
 import java.sql.Date;
 import java.util.Scanner;
 
+import javax.print.DocFlavor.STRING;
+
 public class Main {
     public static void main(String[] args) {
         // primitive
@@ -67,15 +69,32 @@ public class Main {
         System.out.println(compari);
 
         // IF / ELSE / ELSE IF
-        Scanner scan = new Scanner(System.in);
-        String s = scan.nextLine();
+        // Scanner scan = new Scanner(System.in);
+        // String s = scan.nextLine();
 
-        if (s.equals("Tim")) {
-            System.out.println("You typed tim");
-        } else if (s.equals("hello")) {
-            System.out.println("hello");
-        } else {
-            System.out.println("You typed something else");
-        }
+        // if (s.equals("Tim")) {
+        // System.out.println("You typed tim");
+        // } else if (s.equals("hello")) {
+        // System.out.println("hello");
+        // } else {
+        // System.out.println("You typed something else");
+        // }
+
+        // arrays
+        String[] newArr = new String[5];
+        newArr[0] = "hello";
+        newArr[1] = "hi";
+        newArr[2] = "bye";
+        newArr[3] = "bill";
+        newArr[4] = "joe";
+
+        String xy = newArr[3];
+        System.out.println(xy);
+
+        int[] nume = { 2, 3, 5, 7, 10 };
+
+        int xz = nume[4];
+        System.out.println(xz);
+
     }
 }
