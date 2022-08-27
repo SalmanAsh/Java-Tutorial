@@ -96,5 +96,40 @@ public class Main {
         int xz = nume[4];
         System.out.println(xz);
 
+        // For loops
+        int[] arr = { 1, 5, 7, 3, 4, 5 };
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 5) {
+                System.out.println("Found a 5 at " + i);
+            }
+        }
+
+        // more loops
+        int[] arra = { 1, 5, 7, 3, 4, 5 };
+        String[] names = new String[5];
+        Scanner scan = new Scanner(System.in);
+
+        // int count = 0;
+        // for (int element : arra) {
+        // System.out.println(element);
+        // count++;
+        // }
+
+        // for (int i = 0; i < names.length; i++) {
+        // System.out.print("Input: ");
+        // String input = scan.nextLine();
+        // names[i] = input;
+        // }
+
+        // for (String n : names) {
+        // System.out.println(n);
+        // if (n.equals("hi")) {
+        // break;
+        // }
+        // }
+
+        // While loops
+
     }
 }
