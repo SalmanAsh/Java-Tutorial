@@ -1,5 +1,8 @@
 import java.sql.Date;
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 import javax.print.DocFlavor.STRING;
 
@@ -144,15 +147,37 @@ public class Main {
         // System.out.print("You tried " + count + " times.");
 
         // do while loop
-        int in;
+        // int in;
 
-        do {
-            Scanner scann = new Scanner(System.in);
-            System.out.println("Type 10...");
-            System.out.print("Type a number: ");
-            in = scann.nextInt();
+        // do {
+        // Scanner scann = new Scanner(System.in);
+        // System.out.println("Type 10...");
+        // System.out.print("Type a number: ");
+        // in = scann.nextInt();
 
-        } while (in != 10);
+        // } while (in != 10);
+
+        // Sets
+        Set<Integer> s = new HashSet<Integer>();
+        s.add(5);
+        s.add(4);
+        s.add(3);
+        s.add(2);
+        s.add(5);
+        s.add(-5);
+        s.remove(5);
+        System.out.println(s);
+
+        Boolean l = s.contains(5);
+
+        // Lists
+        ArrayList<Integer> p = new ArrayList<Integer>();
+        p.add(1);
+        p.add(50);
+        p.add(1);
+        p.add(6);
+
+        System.out.println(p);
 
     }
 }
