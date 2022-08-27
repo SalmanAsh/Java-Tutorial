@@ -130,6 +130,29 @@ public class Main {
         // }
 
         // While loops
+        // Scanner scann = new Scanner(System.in);
+        // System.out.print("Type a number: ");
+        // int in = scann.nextInt();
+
+        // int count = 0;
+        // while (in != 10) {
+        // System.out.println("Type 10...");
+        // System.out.print("Type a number: ");
+        // in = scann.nextInt();
+        // count++;
+        // }
+        // System.out.print("You tried " + count + " times.");
+
+        // do while loop
+        int in;
+
+        do {
+            Scanner scann = new Scanner(System.in);
+            System.out.println("Type 10...");
+            System.out.print("Type a number: ");
+            in = scann.nextInt();
+
+        } while (in != 10);
 
     }
 }
