@@ -1,6 +1,8 @@
 import java.sql.Date;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -179,5 +181,17 @@ public class Main {
 
         System.out.println(p);
 
+        /// Hash maps
+        Map m = new HashMap();
+
+        m.put("salman", "21");
+        m.put("joe", "19");
+        m.put("saj", "27");
+
+        System.out.println(m);
+        System.out.println(m.get("salman"));
+
+        boolean i = m.containsValue("19");
+        System.out.println(i);
     }
 }
