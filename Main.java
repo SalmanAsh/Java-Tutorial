@@ -193,5 +193,15 @@ public class Main {
 
         boolean i = m.containsValue("19");
         System.out.println(i);
+
+        // Dog class
+        dog D1 = new dog("tim", 4);
+        D1.speak();
+
+        int get = D1.getAge();
+        System.out.println(get);
+
+        D1.setAge(10);
+        D1.speak();
     }
 }
