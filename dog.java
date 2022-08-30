@@ -1,10 +1,17 @@
 public class dog {
-    private String name;
-    private int age;
+    protected static int count = 0;
+    public String name;
+    public int age;
 
     public dog(String name, int age) {
         this.name = name;
         this.age = age;
+        dog.count += 1;
+        dog.display();
+    }
+
+    public static void display() {
+        System.out.println("I am a dog!");
     }
 
     public void speak() {
