@@ -203,5 +203,26 @@ public class Main {
 
         D1.setAge(10);
         D1.speak();
+
+        // Cat class
+        Cat C1 = new Cat("billy", 10, 100);
+        C1.speak();
+
+        Cat C2 = new Cat("billy", 10);
+        C2.speak();
+
+        Cat C3 = new Cat("billy");
+        C3.speak();
+
+        // Static variables
+        dog D2 = new dog("joe", 6);
+        dog D3 = new dog("bill", 6);
+        System.out.println(dog.count);
+        dog.count = 7;
+        System.out.println(dog.count);
+        System.out.println(D3.count);
+
+        // Static methods
+
     }
 }
