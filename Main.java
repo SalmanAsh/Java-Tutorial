@@ -222,7 +222,12 @@ public class Main {
         System.out.println(dog.count);
         System.out.println(D3.count);
 
-        // Static methods
+        // Overloading methods
+        Student joe = new Student("joe");
+        Student billy = new Student("joe");
+        Student Sal = new Student("salman");
+
+        System.out.println(joe.equals(billy));
 
     }
 }
